@@ -1,0 +1,57 @@
+.page {
+  background-color: rgb(197, 207, 205);
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.calculator {
+  border:3px solid aqua;
+}
+
+.page:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.calculator {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: -0.35em;
+}
+
+button {
+  color: rgb(59, 35, 192);
+  background-color: rgb(59, 124, 111);
+  display: block;
+  font-size: 40px;
+  width: 50px;
+  float: left;
+}
+
+
+.operations {
+  position:relative;
+  width: 1px;
+  display: inline-block;
+  font-size: 20px;
+  left: 20%;
+  background-color: orange;
+}
+
+.numbers {
+
+}
+
+input {
+  width: 100%;
+  height: 35px;
+}
+
+.form {
+  width: 300px;
+}
+
